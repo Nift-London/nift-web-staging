@@ -1,0 +1,32 @@
+# This file is used to configure the Shorebird updater used by your app.
+# Learn more at https://docs.shorebird.dev
+# This file should be checked into version control.
+
+# This is the unique identifier assigned to your app.
+# Your app_id is not a secret and is just used to identify your app
+# when requesting patches from Shorebird's servers.
+app_id: ea7653d6-a014-4427-8b68-cf0310d928cf
+flavors:
+  adminLocal: ea7653d6-a014-4427-8b68-cf0310d928cf
+  adminPreProduction: 8b461172-49d3-4b77-b16e-5fbe94d4ff6e
+  adminProduction: 8be6c0d3-ef7c-4e08-bca3-82291e36075f
+  adminStaging: 40ab3519-678b-41f4-922f-0a0ebac1bdc3
+  local: fcf82e0e-7294-442a-994a-7222a9ebe240
+  preProduction: 127a7209-f276-44d7-a09e-9b24b419999c
+  production: 339ecdc0-0362-4625-8133-acd5f389b38b
+  staging: ad46391e-f98e-497e-9578-7f89c70e50ac
+  # AdminLocal: c773a3f1-db49-4ff8-bfca-77aa466d6dc7
+  # AdminPreProduction: b8b4b5fc-af79-438f-a4b0-6633ff921acb
+  # AdminProduction: f581a636-fb54-47c8-886b-b0ff7c95dc7a
+  # AdminStaging: 718114cf-3fc9-4ae6-a149-ab43a43f5a1d
+  # Local: 14056bfd-e72f-4640-9dbc-c6a0b7b77dab
+  # NiftDeliveryTrackingExtensionProduction: 131724f2-b68a-4d0f-b47e-5ec65a3ac632
+  # NiftDeliveryTrackingExtensionStaging: 6721d196-eb90-4e4d-8812-d39fe0c25187
+  # PreProduction: ab91e0c2-c87e-4908-90ce-672e4efa6b35
+  # Production: 8c0b2a65-808a-434c-ae77-9228abd371ee
+  # Staging: 0243489c-62c8-406b-ad8d-b51e9588b61b
+# auto_update controls if Shorebird should automatically update in the background on launch.
+# If auto_update: false, you will need to use package:shorebird_code_push to trigger updates.
+# https://pub.dev/packages/shorebird_code_push
+# Uncomment the following line to disable automatic updates.
+# auto_update: false
